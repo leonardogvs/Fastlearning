@@ -1,19 +1,14 @@
     import java.util.Scanner;
 public class Exercise_2 {
     public static void main(String[] args) {
-        // Create a Scanner object to read user input
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner (System.in);  // Create a Scanner object to read user input
 
-        // Read the number of apples from the user
-        int apples = scanner.nextInt();
-        // Read the number of oranges from the user
-        int oranges = scanner.nextInt();
+        int apples = scanner.nextInt();             // Read the number of apples from the user
+        int oranges = scanner.nextInt();            // Read the number of oranges from the user
 
-        // Calculate the total number of fruits
-        int result;
+        int result;                                 // Calculate the total number of fruits
         result = apples + oranges;
 
-        // Print the result
-        System.out.println(result);
+        System.out.println(result);                 // Print the result
     }
 }
